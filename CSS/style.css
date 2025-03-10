@@ -1,0 +1,120 @@
+/* Top of the page */
+@media screen and (min-width: 425px) {
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.top{
+    display: flex;
+    padding-top: 10px;
+}
+
+.top img{
+    width: 40%;
+    height: 75%
+}
+
+.top h2{
+    font-weight: 1;
+    margin: 0px;
+}
+
+/* Navigation Links at the top of page */
+.topLinks ul{
+    display: flex;
+    list-style: none;
+    gap: 1rem;   
+}
+
+.topLinks a{
+    color: #9c9c9c;
+    text-decoration: none;
+}
+
+/* Main Section */
+
+/* Main Image */
+.mainImage img{
+    width: 100%;
+}
+
+/* Second part of main section */
+.mainSection{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+}
+
+.mainSection h3{
+    color: #9cc3f8;
+    font-weight: 1;
+}
+
+.mainSection p{
+    color: gray;
+    font-size: 75%;
+}
+
+.bottomSection{
+    display: flex;
+    border-bottom: 1px solid gray;
+}
+
+.bottomSection h2{
+    color: #686a6c;
+    font-weight: 1;
+    text-align: center;
+}
+
+.bottomSection h4{
+    color: #949596;
+    font-weight: 1;
+}
+
+.basket{
+    flex: 1;
+}
+
+.basketList{
+    flex: 1;
+    align-content: center;
+    padding: 10px;
+}
+
+.basketList h4{
+    padding-left: 38px;
+}
+
+.basketList li{
+    color: #bebebe;
+    list-style: none;
+    padding-bottom: 5px;
+}
+
+/* Footer of page */
+footer{
+    color: gray;
+    text-align: center;
+}
+}
+
+@media screen and (min-width: 1024px) {
+    .basket img{
+        padding-left: 32%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .bottomSection{
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+
+    .basket img{
+        padding-left: 17%;
+    }
+}
